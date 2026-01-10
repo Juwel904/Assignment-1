@@ -32,9 +32,8 @@
 nav .kv-nav {
     padding: 16px 0;
 }
-nav .btn button{
-  color: rgba(255, 255, 255, 1);
-  border-radius: 4px;
+ .btn button{
+color: rgba(255, 255, 255, 1);  border-radius: 4px;
 background-color: rgba(70, 145, 101, 1);
 padding: 12px 16px;
 justify-content: center;
@@ -132,3 +131,251 @@ color: rgba(255, 255, 255, 1);
     height: 16px;
    
 }
+
+
+.notes-h {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding-top: 5%;
+}
+.notes-heading {
+    text-align: center;
+   align-items: center;
+}
+.note-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.note-card div {
+    width: 322px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.06);
+    text-align: center;
+    position: relative;
+}
+
+.note-card div img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    background:rgba(249, 85, 85, 1);
+    padding: 12px;
+}
+
+.note-card div h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.note-card div p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+.brain-image-container {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 12px;
+}
+.second-brain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  
+}
+
+.brain {
+  display: flex;
+  gap: 48px;
+  background:white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(30,34,90,0.06);
+  padding: 40px 40px;
+}
+
+
+
+.brain img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+}
+
+.second {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.second h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+ 
+ 
+}
+
+.second h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 14px;
+  
+}
+
+.second p {
+  font-size: 15px;
+  color: rgba(98, 115, 130, 1);
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.idea p {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: rgba(98, 115, 130, 1);
+  margin-bottom: 10px;
+
+}
+
+.idea img {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.think {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 40px 80px 40px;
+  
+  border-radius: 12px;
+}
+
+.think1 {
+    margin: 0 px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background: rgba(247, 246, 242, 1);
+  border-radius: 12px;
+  padding: 32px 290px;
+  box-sizing: border-box;
+}
+
+.think1 h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.think1 p {
+  color: rgba(0, 25, 49, 1);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.footer {
+  background: #03203a;
+  color:white;
+  width: 100%;
+  padding: 48px 0 0 0;
+}
+
+.footer-content {
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 0 40px;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: rgba(250, 250, 250, 1);
+}
+
+.footer-logo {
+  width: 48px;
+  height: 48px;
+}
+
+
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  gap: 8px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
+  margin-top: 4px;
+}
+
+.footer-social img {
+  width: 22px;
+  height: 22px;
+
+ 
+}
+
+
+.footer-line {
+  border: none;
+  border-top: 2px solid white;
+  margin: 32px auto 0 auto;
+  max-width: 1360px;
+}
+
+.footer-bottom {
+  max-width: 1360px;
+  margin: 16px auto 0 auto;
+  text-align: center;
+  color: rgba(250, 250, 250, 1);
+  font-size: 14px;
+  padding-bottom: 24px;
+}
+
+
+
+
